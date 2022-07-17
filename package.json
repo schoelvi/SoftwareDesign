@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schoelvi/GIS_SoSe2021.git"
+    "url": "git+https://github.com/schoelvi/SoftwareDesign.git"
   },
   "author": "Vivien Schöllkopf",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/schoelvi/GIS_SoSe2021/issues"
+    "url": "https://github.com/schoelvi/SoftwareDesign/issues"
   },
-  "homepage": "https://github.com/schoelvi/GIS_SoSe2021#readme",
+  "homepage": "https://github.com/schoelvi/SoftwareDesign#readme",
   "devDependencies": {
     "@types/jest": "^28.1.6",
     "@types/node": "^15.6.1",
