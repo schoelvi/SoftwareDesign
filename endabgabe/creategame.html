@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/creategame.js" defer></script>
+    <title>Create Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="hintergrund">
+
+        <form onsubmit="return false">
+            <input id="gameName" name="gameName" type="text" placeholder="Name des Spiels"><br>
+            <input id="sizeX" name="gameX" type="number" placeholder="Größe X - Breite des Spiels"><br>
+            <input id="sizeY" name="gameY" type="number" placeholder="Größe Y - Höhe des Spiels"><br>
+            <input id="startX" name="gameStartpositionX" type="text" placeholder="Startpunkt X auswählen"><br>
+            <input id="startY" name="gameStartpositionY" type="text" placeholder="Startpunkt Y auswählen"><br>
+            <button type="button" id="generateField">Spielfeld erzeugen</button><br>
+            <div>
+                <table >
+                    <tbody id="gameField">
+
+                    </tbody>
+                    
+                </table>
+            </div>
+            <button type="button" id="gameEnable">Spiel freigeben</button><br>
+            <span id="hinweis"></span>
+
+        </form>
+    </div>
+    <div id="antwort"></div>
+</body>
+
+</html>
